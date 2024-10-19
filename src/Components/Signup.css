@@ -1,0 +1,55 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Keep text left-aligned */
+  text-align: left; /* Change text alignment to left */
+  padding: 50px;
+}
+
+.text-section {
+  margin-bottom: 10px;
+  max-width: 600px;
+}
+
+.text-section h1 {
+  font-size: 2.5rem;
+  color: #008080;
+}
+
+.text-section p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.5; /* Increase line height for better readability */
+  margin: 0; /* Remove default margin to avoid extra space */
+}
+
+.image-section {
+  position: relative;
+  width: 600px; /* Adjust width depending on the image sizes */
+  height: 500px; /* Adjust height */
+  margin-top: -160px; /* Shift the container up */
+  margin-left: auto; /* Align the image section to the right */
+}
+
+.signup-image {
+  position: absolute;
+  width: 280px; /* Set the width of each phone screen */
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Staggering effect for the phones */
+#image-1 {
+  top: 0;
+  right: 0;
+}
+
+#image-2 {
+  top: 60px; /* Slight downward shift */
+  right: 300px; /* Slight rightward shift */
+}
+
+#image-3 {
+  top: 120px; /* Further downward shift */
+  right: 600px; /* Further rightward shift */
+}

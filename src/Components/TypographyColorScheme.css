@@ -1,0 +1,117 @@
+.typography-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  position: relative; /* To position watermark */
+}
+
+.typography-heading {
+  font-size: 2.5rem;
+  color: #008080; /* Matching theme color */
+  margin-bottom: 10px;
+}
+
+.typography-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.typography-font {
+  margin-bottom: 40px;
+}
+
+.font-heading {
+  font-size: 1.8rem;
+  color: #008080;
+  margin-bottom: 20px;
+}
+
+.font-weights {
+  display: flex;
+  justify-content: center;
+  gap: 120px; /* Space out headings */
+  margin-bottom: 10px;
+}
+
+.font-weight-title {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.font-bold {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 700; /* Bold weight */
+    margin: 5px 0;
+  }
+  
+  .font-medium {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 500; /* Medium weight */
+    margin: 5px 0;
+  }
+  
+  .font-regular {
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 400; /* Regular weight */
+    margin: 5px 0;
+  }
+
+/* Centralized Font Samples */
+.font-sample {
+  margin-top: 10px;
+}
+
+.font-sample-text {
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: 500; /* Medium weight for sample text */
+  margin: 5px 0;
+  font-size: 1.5rem; /* Adjust font size for readability */
+}
+
+/* Watermark Effect */
+.watermark {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 5rem; /* Large text size */
+  color: rgba(0, 128, 128, 0.1); /* Light teal color with opacity */
+  z-index: -1; /* Behind other content */
+  transform: rotate(-30deg); /* Slight tilt effect */
+  pointer-events: none; /* Ignore clicks */
+}
+
+/* Color Palette Styles */
+.color-palette-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Ensure first row has 4 and second row has 3 circles */
+.color-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Make it a circle */
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+  font-weight: bold;
+  font-size: 0.9rem; /* Font size for hex code */
+}
+
+/* Default color for text inside color circles */
+.color-circle span {
+  color: #000; /* Black text by default */
+}
+
+/* Override text color for dark backgrounds */
+.color-circle.dark span {
+  color: #fff; /* White text for dark circles */
+}
+
+.color-code {
+  text-align: center;
+}

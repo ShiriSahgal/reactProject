@@ -1,0 +1,57 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Shift text section to the right */
+    text-align: right; /* Change text alignment to right */
+    padding: 50px;
+    margin-top: 50px;
+  }
+  
+  .login-text-section {
+    margin-bottom: 10px;
+    max-width: 600px;
+  }
+  
+  .login-text-section h1 {
+    font-size: 2.5rem;
+    color: #008080;
+  }
+  
+  .login-text-section p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.5; /* Increase line height for better readability */
+    margin: 0; /* Remove default margin to avoid extra space */
+  }
+  
+  .login-image-section {
+    position: relative;
+    width: 600px; /* Adjust width depending on the image sizes */
+    height: 500px; /* Adjust height */
+    margin-top: -50px; /* Shift the container up */
+    margin-right: auto; /* Align the image section to the left */
+  }
+  
+  .login-image {
+    position: absolute;
+    width: 280px; /* Set the width of each phone screen */
+    height: auto;
+    border-radius: 15px;
+  }
+  
+  /* Staggering effect for the phones */
+  #login-image-1 {
+    top: 0;
+    left: 0; /* Align left */
+  }
+  
+  #login-image-2 {
+    top: 60px; /* Slight downward shift */
+    left: 300px; /* Slight rightward shift */
+  }
+  
+  #login-image-3 {
+    top: 120px; /* Further downward shift */
+    left: 600px; /* Further rightward shift */
+  }
+  

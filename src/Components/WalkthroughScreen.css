@@ -1,0 +1,33 @@
+.walkthrough-container {
+    padding: 40px 20px; /* Add padding around the container */
+    background-color: #ffffff; /* White background */
+    text-align: center; /* Center align the content */
+  }
+  
+  .walkthrough-heading {
+    font-size: 2.5rem;
+    color: #008080; /* Matching the theme color */
+    margin-bottom: 10px; /* Space below heading */
+  }
+  
+  .walkthrough-description {
+    color: #666;
+    margin-bottom: 800px; /* Increased space below the paragraph */
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto; /* Center the paragraph */
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Add space between images */
+  }
+  
+  .walkthrough-image {
+    width: 250px; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: add rounded corners */
+   /*  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */ /* Add subtle shadow */
+  }
+  

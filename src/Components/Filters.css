@@ -1,0 +1,43 @@
+/* Container for the entire filters section */
+.filters-container {
+    display: flex;
+    justify-content: space-between; /* Space between text and image */
+    align-items: flex-start; /* Align items to the top */
+    padding: 50px; /* Adjusted for spacing */
+    max-width: 1200px; /* Keeps it centered */
+    margin: 0 auto;
+    height: 100vh; /* Full height of the viewport */
+}
+
+/* Text section styling */
+.filters-text-section {
+    max-width: 600px; /* Set max width for text section */
+}
+
+.filters-heading {
+    font-size: 2.5rem;
+    color: #008080;
+    text-align: left; /* Left-aligned */
+}
+
+.filters-paragraph {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.5; /* Better readability */
+    text-align: left; /* Left-aligned */
+}
+
+/* Image section styling */
+.filters-image-section {
+    width: 400px; /* Set width for the image */
+    height: auto; /* Let height adjust based on the image */
+}
+ 
+    
+
+.filters-image {
+    width: 300px; /* Make image responsive */
+    height: 450px; /* Set a maximum height for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Optional: for rounded corners */
+}

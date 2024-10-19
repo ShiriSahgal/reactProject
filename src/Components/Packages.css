@@ -1,0 +1,52 @@
+/* src/Packages.css */
+.packages-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the entire content */
+  padding: 130px; /* Adjust padding for better layout */
+  background-color: #f8f8f8; /* Light background */
+}
+
+/* Heading Style */
+.packages-heading {
+  font-size: 48px;
+  color: #008080; /* Matching color scheme */
+  margin-bottom: 30px; /* Slight margin to move the heading down */
+}
+
+/* Description Text */
+.packages-description {
+  font-size: 18px;
+  color: #333;
+  margin: 5px 0;
+  text-align: center; /* Center-align the description */
+}
+
+/* Image Container */
+.packages-image-container {
+  display: flex;
+  justify-content: center; /* Center the image container */
+  align-items: flex-end; /* Align images to the bottom */
+  position: relative; /* Enable absolute positioning of child images */
+}
+
+/* Individual Image Styling */
+.packages-image {
+  width: 280px; /* Increased width for all images */
+  height: auto; /* Let the height adjust automatically */
+  border-radius: 15px;
+  margin: 0 10px; /* Add margin between images */
+}
+
+/* Positioning First and Third Images Up */
+.packages-image:first-child,
+.packages-image:last-child {
+  margin-bottom: 20px; /* Gap between the first/third images and the middle image */
+  position: relative; /* Enable relative positioning */
+  bottom: 15px; /* Move them slightly up */
+}
+
+/* Middle Image Positioned Lower */
+.packages-middle-image {
+  margin-top: 40px; /* Increase margin to move the middle image lower */
+}
